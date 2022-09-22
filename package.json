@@ -1,5 +1,6 @@
 {
   "name": "dcscape_admin",
+  "homepage": "http://shamskholani2020.github.io/dcscape",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,14 +13,16 @@
     "react-dom": "^18.2.0",
     "react-router": "^6.4.0",
     "react-router-dom": "^6.4.0",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "^2.1.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages-d build"
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +44,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.8.8",
+    "gh-pages": "^4.0.0",
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8"
   }
