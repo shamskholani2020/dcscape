@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d0585d91ae239597abcf",
+    "revision": "08144162ba14473dd0fb",
     "url": "/dcscape/static/css/main.a2de7bf7.chunk.css"
   },
   {
-    "revision": "d0585d91ae239597abcf",
-    "url": "/dcscape/static/js/main.d0585d91.chunk.js"
+    "revision": "08144162ba14473dd0fb",
+    "url": "/dcscape/static/js/main.08144162.chunk.js"
   },
   {
     "revision": "6f8533d8c296effd21ae",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/dcscape/static/js/runtime~main.056756d0.js"
   },
   {
-    "revision": "ae8ecc939b30ba36376e754ac0d643d5",
+    "revision": "7fc7bdbf9fb11007f6ce7c5eb9af9c39",
     "url": "/dcscape/index.html"
   }
 ];
